@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="Untree.co" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="bootstrap, bootstrap4" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Display+Playfair:wght@400;700&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Infografis</title>
+  </head>
+
+  <body>
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+          <span class="icofont-close js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav mb-5">
+      <div class="sticky-nav js-sticky-header">
+        <div class="container position-relative">
+          <div class="site-navigation text-center">
+            <a href="index.html" class="logo menu-absolute m-0"
+              >DEsaKU<span style="color: #bbd8a3">.</span></a
+            >
+            <ul class="js-clone-nav d-none d-lg-inline-block site-menu">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="infografis.html">Infografis</a></li>
+              <li><a href="berita.html">Berita</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section: Hero -->
+    <section class="hero-section overlay" style="background-image: url('images/hero_desa.jpg');">
+      <div class="container text-center text-white d-flex flex-column justify-content-center align-items-center" style="height: 100vh;">
+        <h1 class="display-4 fw-bold text-white" data-aos="fade-down">Infografis Desa</h1>
+        <p class="lead mt-3" data-aos="fade-up">Visualisasi data desa secara informatif, mudah dipahami, dan menarik.</p></p>
+      </div>
+    </section>
+
+  <!-- Section: Infografis Penduduk -->
+  <section class="py-5 penduduk-section ">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5" style="color: #6F826A;">Jumlah Penduduk dan Kepala Keluarga</h2>
+      <div class="row g-4">
+
+        <!-- Total Penduduk -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card p-4 h-100 border-0 shadow-sm text-center">
+            <img src="images/icon-penduduk.jpg" alt="Penduduk" class="mb-3 icon-img">
+            <h6 class="text-uppercase" style="color: #6F826A;">Total Penduduk</h6>
+            <h3 class="fw-bold" style="color: #6F826A;">1.157 <span class="fw-normal">Jiwa</span></h3>
+          </div>
+        </div>
+
+        <!-- Kepala Keluarga -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card p-4 h-100 border-0 shadow-sm text-center">
+            <img src="images/icon-kepala-keluarga.jpg" alt="Kepala Keluarga" class="mb-3 icon-img">
+            <h6 class="text-uppercase" style="color: #6F826A;">Kepala Keluarga</h6>
+            <h3 class="fw-bold" style="color: #6F826A;">305 <span class="fw-normal">Jiwa</span></h3>
+          </div>
+        </div>
+
+        <!-- Perempuan -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card p-4 h-100 border-0 shadow-sm text-center">
+            <img src="images/icon-perempuan.jpg" alt="Perempuan" class="mb-3 icon-img">
+            <h6 class="text-uppercase" style="color: #6F826A;">Perempuan</h6>
+            <h3 class="fw-bold" style="color: #6F826A;">548 <span class="fw-normal">Jiwa</span></h3>
+          </div>
+        </div>
+
+        <!-- Laki-laki -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card p-4 h-100 border-0 shadow-sm text-center">
+            <img src="images/icon-lakilaki.jpg" alt="Laki-laki" class="mb-3 icon-img">
+            <h6 class="text-uppercase" style="color: #6F826A;">Laki-laki</h6>
+            <h3 class="fw-bold" style="color: #6F826A;">609 <span class="fw-normal">Jiwa</span></h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Berdasarkan Dusun -->
+  <section class="py-5 dusun-section">
+    <div class="container">
+      <h2 class="fw-bold mb-4" style="color: #6F826A;">Berdasarkan Dusun</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <canvas id="dusunChart"></canvas>
+        </div>
+        <div class="col-md-6">
+          <h5 class="fw-bold mb-3" style="color: #000;">Keterangan:</h5>
+          <ul class="list-unstyled" style="font-size: 1.1rem;">
+            <li>Sanaan: <strong>312 Jiwa</strong></li>
+            <li>Walikulon: <strong>428 Jiwa</strong></li>
+            <li>Centong: <strong>417 Jiwa</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Peta Desa -->
+<section class="py-5" style="background-color: #BBD8A3;">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4" style="color: #6F826A;">Peta Desa</h2>
+    <div id="map" style="height: 500px; border: 3px solid #6F826A; border-radius: 12px;"></div>
+  </div>
+</section>
+
+    <div class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 mr-auto">
+            <div class="widget">
+              <h3>About Us<span class="text-primary">.</span> </h3>
+              <p>DEsaKU adalah desa yang asri dan ramah di Kecamatan Sukaraya, Kabupaten Harmoni. Website ini bertujuan sebagai sumber informasi dan layanan digital bagi warga dan pengunjung.</p>
+            </div> <!-- /.widget -->
+            <div class="widget">
+              <h3>Connect</h3>
+              <ul class="list-unstyled social">
+                <li><a href="https://www.instagram.com/"><span class="icon-instagram"></span></a></li>
+                <li><a href="https://x.com/"><span class="icon-twitter"></span></a></li>
+                <li><a href="https://www.facebook.com/"><span class="icon-facebook"></span></a></li>
+              </ul>
+            </div> <!-- /.widget -->
+          </div> <!-- /.col-lg-3 -->
+  
+          <div class="col-lg-3">
+            <div class="widget">
+              <h3>Contact</h3>
+              <address>Jl. Desaku No. 123 Tulungagung, Jawa Timur</address>
+              <ul class="list-unstyled links mb-4">
+                <li><a href="tel://6281234567890">Telp: 0812-3456-7890</a></li>
+                <li><a href="mailto:info@desaku.desa.id">Email: info@desaku.desa.id</a></li>
+              </ul>
+            </div> <!-- /.widget -->
+          </div> <!-- /.col-lg-3 -->
+        </div> <!-- /.row -->
+
+    <!-- Chart.js Script -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      const ctx = document.getElementById('dusunChart').getContext('2d');
+      new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: ['Sanaan', 'Walikulon', 'Centong'],
+          datasets: [{
+            label: 'Jumlah Penduduk',
+            data: [312, 428, 417],
+            backgroundColor: ['#BBD8A3', '#6F826A', '#F0F1C5'],
+            borderColor: '#fff',
+            borderWidth: 2
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: {
+              position: 'bottom'
+            },
+            tooltip: {
+              callbacks: {
+                label: function(context) {
+                  let label = context.label || '';
+                  let value = context.raw || 0;
+                  let total = context.dataset.data.reduce((a, b) => a + b, 0);
+                  let percentage = ((value / total) * 100).toFixed(2) + '%';
+                  return `${label}: ${percentage}`;
+                }
+              }
+            }
+          }
+        }
+      });
+    </script>
+    <!-- Leaflet CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Leaflet Map Init Script -->
+    <script>
+      const map = L.map('map').setView([-7.250445, 112.768845], 13); // Ganti koordinat sesuai lokasi desa Anda
+
+      // Tile Layer (peta dasar)
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+      }).addTo(map);
+
+      // Marker lokasi desa
+      const desaMarker = L.marker([-7.250445, 112.768845]).addTo(map)
+        .bindPopup('<b>Desa Anda</b><br>Koordinat ini bisa disesuaikan.')
+        .openPopup();
+    </script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
